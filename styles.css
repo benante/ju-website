@@ -12,3 +12,12 @@ body {
 img {
   width: 100%;
 }
+.stickyHeading {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: white;
+  margin: 0;
+  display: none;
+  font-size: 10vw; /* vw is responsive to viewport size */
+}

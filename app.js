@@ -188,3 +188,19 @@ images.forEach((image) => {
   anchor.appendChild(img);
   imageContainer.appendChild(anchor);
 });
+
+document.addEventListener("scroll", () => {
+  let h1 = document.querySelector(".stickyHeading");
+  let h1Coord = h1.getBoundingClientRect();
+
+  let firstImage = document.querySelector("#firstImage");
+  let firstImageCoord = firstImage.getBoundingClientRect();
+  if (h1Coord.bottom > firstImageCoord.top + 1) {
+    h1.style.display = "block";
+    console.log("work");
+    h1.style.fontSize = "50vw";
+  }
+  if (h1Coord.top < firstImageCoord.top) {
+    h1.style.display = "none";
+  }
+});

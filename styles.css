@@ -2,13 +2,29 @@
   box-sizing: border-box;
 }
 
+/* Main containers */
+
 html,
 body {
   margin: 0;
 }
 body {
-  padding: 1em;
+  padding: 0.5em;
 }
+
+/* Headings & Paragraphs */
+
+h1 {
+  font-size: 3em;
+  margin: 0.3em 0;
+  text-align: center;
+  text-shadow: 0px 21px 3px blue;
+}
+h2 {
+  /* text-align: end; */
+  font-size: 2em;
+}
+
 img {
   width: 100%;
 }

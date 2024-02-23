@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .menu {
@@ -35,7 +36,7 @@
   display: block;
   background-color: #000000;
   position: absolute;
-  height: 5px;
+  height: 4px;
   width: 35px;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 10px;
@@ -101,6 +102,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 700px) {
+  .navbar {
+    justify-content: center;
+  }
+
   /* actual hamburger icon */
   .menu-button-container {
     display: flex;

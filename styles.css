@@ -67,10 +67,18 @@ h3 {
 
 /* Lists */
 
-ul,
-ol {
+ul {
   list-style-type: none;
   padding: 0;
+}
+ol {
+  list-style-type: circle;
+}
+.infos-list > li {
+  margin: 0.9em 0;
+}
+.date {
+  font-style: italic;
 }
 
 /* Images */
@@ -79,7 +87,7 @@ img {
   width: 100%;
 }
 
-/* Margins */
+/* Spacing */
 .vertical-m {
   margin: 0.3em 0;
 }

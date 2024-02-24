@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 /* Main containers */
@@ -20,10 +21,18 @@ footer {
 }
 
 /* Fonts */
+body {
+  font-family: 'Muli';
+  letter-spacing: 3px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Philosopher', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 h1 {
   font-size: 4.5rem;
-  margin: 0.3em 0;
   text-align: center;
   text-shadow: 0px 21px 3px blue;
 }
@@ -34,7 +43,6 @@ h2 {
 }
 h3 {
   font-size: 2rem;
-  margin-bottom: 0;
 }
 
 .contact:hover {
@@ -69,6 +77,14 @@ ol {
 
 img {
   width: 100%;
+}
+
+/* Margins */
+.vertical-m {
+  margin: 0.3em 0;
+}
+.vertical-l {
+  margin: 0.8em 0;
 }
 
 @media (min-width: 700px) {

@@ -43,7 +43,7 @@ h3 {
 .link {
   /* anchor tag*/
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 

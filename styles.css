@@ -19,6 +19,11 @@ footer {
   align-items: center;
   min-height: 50px;
 }
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
 
 /* Fonts */
 body {
@@ -86,13 +91,21 @@ ol {
 img {
   width: 100%;
 }
+.image-container img {
+  display: block; /* To fully fit in the anchor tag */
+}
 
 /* Spacing */
-.vertical-m {
+.vertical-sm {
   margin: 0.3em 0;
 }
-.vertical-l {
+.vertical-m {
   margin: 0.8em 0;
+}
+
+/* Misc custom classes */
+.message {
+  font-style: italic;
 }
 
 @media (min-width: 700px) {
@@ -103,5 +116,13 @@ img {
     font-size: 3em;
     text-align: end;
     letter-spacing: 3px;
+  }
+  .image-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  .image-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

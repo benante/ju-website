@@ -109,12 +109,18 @@ img {
 }
 
 @media (min-width: 700px) {
+  body {
+    padding: 0 2em;
+  }
+  .main-content {
+    padding: 0 5rem;
+  }
   h1 {
     font-size: 6em;
   }
   h2 {
     font-size: 3em;
-    text-align: end;
+    text-align: left;
     letter-spacing: 3px;
   }
   .image-container {

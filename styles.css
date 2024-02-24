@@ -36,12 +36,15 @@ h3 {
   font-size: 2rem;
   margin-bottom: 0;
 }
-.contact {
-  color: black;
-  text-decoration: none;
-}
+
 .contact:hover {
   color: blue;
+}
+.link {
+  /* anchor tag*/
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .stickyHeading {

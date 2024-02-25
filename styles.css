@@ -7,7 +7,6 @@
 
 html,
 body {
-  margin: 0;
   font-size: 1.1em;
 }
 body {
@@ -16,8 +15,12 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 50px;
+  align-items: flex-end;
+  gap: 0.5em;
+  min-height: 150px;
+  padding: 1em;
+  font-size: 0.8em;
+  color: dimgray;
 }
 .image-container {
   display: grid;
@@ -50,14 +53,14 @@ h3 {
   font-size: 2rem;
 }
 
-.contact:hover {
+.hover:hover {
   color: blue;
+  font-weight: bold;
 }
 .link {
   /* anchor tag*/
   color: black;
   text-decoration: underline;
-  font-weight: bold;
 }
 
 .stickyHeading {
@@ -80,7 +83,7 @@ ol {
   list-style-type: circle;
 }
 .infos-list > li {
-  margin: 0.9em 0;
+  margin-bottom: 0.9em;
 }
 .date {
   font-style: italic;
@@ -100,12 +103,18 @@ img {
   margin: 0.3em 0;
 }
 .vertical-m {
-  margin: 0.8em 0;
+  margin: 1.5em 0 0.3em 0;
 }
 
 /* Misc custom classes */
 .message {
   font-style: italic;
+  font-size: 0.8rem;
+}
+.dev-contact {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
 
 @media (min-width: 700px) {

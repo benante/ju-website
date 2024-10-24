@@ -70,6 +70,7 @@ h3 {
   color: white;
   margin: 0;
   display: none;
+
   font-size: 10vw; /* vw is responsive to viewport size */
 }
 
@@ -139,5 +140,10 @@ img {
 @media (min-width: 1000px) {
   .image-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1400px) {
+  .stickyHeading {
+    top: -100px;
   }
 }
